@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npx webpack-dev-server --mode development --hot",
     "build": "npx webpack --mode production",
-    "calc": "npx ts-node scripts/calc",
+    "calc": "npx ts-node lessons/lesson2",
     "lint": "npx eslint --ext .js,.jsx,.ts,.tsx --fix ./",
     "loki:update": "npm run build-storybook && npx loki update --requireReference --reactUri file:./storybook-static",
     "loki:approve": "npx loki approve",
